@@ -112,4 +112,4 @@ do {
         }
         pause
 }
-until ($input -eq 'q') Remove-PSSession
+until ($input -eq 'q')

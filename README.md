@@ -1,6 +1,6 @@
 # PowerShell - Dual Delivery
 
-Script Requirements
+## Script Requirements
 -------------------
 ```
 * Account used must have Exchange admin rights for forwarding
@@ -11,9 +11,9 @@ Script Requirements
 ```
 
 
-Required User Inputs
+## Required User Inputs
 --------------------
-* When the script is executed you will be prompted for multiple required inputs. The required formats are listed as examples below each description.
+######When the script is executed you will be prompted for multiple required inputs. The required formats are listed as examples below each description.
 ```
 * Forwarding Domain = The forwarding domain to be used
 tempdomain.com
@@ -24,7 +24,7 @@ tempdomain.com
 ```
 
 
-Prerequisites
+## Prerequisites
 -------------
 ```
 * Additional domain created and verified as a secondary domain in G Suite for forwarding

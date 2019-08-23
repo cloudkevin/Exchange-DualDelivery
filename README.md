@@ -1,5 +1,5 @@
 # PowerShell - Dual Delivery
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/54a818ae943241cab3a5b7cb360b66f7)](https://www.codacy.com/app/cloudkevin/PowerShell-DualDelivery?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cloudkevin/PowerShell-DualDelivery&amp;utm_campaign=Badge_Grade)
 ## Script Requirements
 ```
 * Account used must have Exchange admin rights for forwarding

@@ -3,13 +3,13 @@ function Show-Menu
     param ([string]$Title = 'SADA Dual Delivery Script')
 
     cls
-    Write-Host "==================== $Title ===================="
-    Write-Host '================================================'
-    Write-Host "1. Set mailbox forwards"
-    Write-Host "2. Verify mailbox forwards"
-    Write-Host "3. Clear PowerShell Session"
-    Write-Host "Q. Quit to Console"
-    Write-Host '=============================================='
+    Write-Output "==================== $Title ===================="
+    Write-Output '==================================================================='
+    Write-Output "1. Set mailbox forwards"
+    Write-Output "2. Verify mailbox forwards"
+    Write-Output "3. Clear PowerShell Session"
+    Write-Output "Q. Quit to Console"
+    Write-Output '=================================================================='
 }
 
 function Clear-Session
@@ -52,10 +52,10 @@ do {
 
                 $Externaladdress = "$($User.split('@')[0])@$($tempDomain)"
                 $DoesContactExist = Get-MailContact -Identity $Externaladdress -ErrorAction SilentlyContinue
-                If ($DoesContactExist -eq $Null) { 
-                    Write-Host ""
-                    Write-Host "Creating mail contact for $($User)"
-                    Write-Host ""
+                If ($Null -eq $DoesContactExist) { 
+                    Write-Output ""
+                    Write-Output "Creating mail contact for $($User)"
+                    Write-Output ""
                     $Args1 = @{ 
                         Name                 = "$($SamAccountName) (GSuite contact)"
                         Alias                = "$($SamAccountName).GSuite-contact"
@@ -88,9 +88,9 @@ do {
                     Set-Mailbox @Args3 
                 }
                 else {
-                    Write-Host ""
-                    Write-Host "Shadow contact already exists. Skipping User: $($User)"
-                    Write-Host ""
+                    Write-Output ""
+                    Write-Output "Shadow contact already exists. Skipping User: $($User)"
+                    Write-Output ""
                 }
             }
         }

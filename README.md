@@ -8,10 +8,8 @@
 * OU for shadow contacts to be created in
 * Client to confirm modules can be imported and run on the server(s) SADA has access to
 ```
-
-
 ## Required User Inputs
-###### When the script is executed you will be prompted for multiple required inputs. The required formats are listed as examples below each description.
+### When the script is executed you will be prompted for multiple required inputs. The required formats are listed as examples below each description
 ```
 * Forwarding Domain = The forwarding domain to be used
 tempdomain.com
@@ -20,8 +18,6 @@ tempdomain.com
 * Organizational Unit = The OU shadow contact cards will be created in
 * OU=XX,DC=XX,DC=COM
 ```
-
-
 ## Prerequisites
 ```
 * Additional domain created and verified as a secondary domain in G Suite for forwarding

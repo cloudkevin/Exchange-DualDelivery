@@ -29,11 +29,8 @@ $contactOU = Read-Host -Prompt "Enter OU for mail contacts(OU=XX,DC=XX,DC=COM)"
 
 $GSuiteUsers = import-csv $csvPath
 
-
 Import-Module ActiveDirectory
 Start-Sleep -Seconds 10
-
-
 
 do {
     Show-Menu

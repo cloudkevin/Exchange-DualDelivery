@@ -10,7 +10,7 @@
 ```
 
 ## Required User Inputs
-###### When the script is executed you will be prompted for multiple required inputs. The required formats are listed as examples below each description.
+### When the script is executed you will be prompted for multiple required inputs. The required formats are listed as examples below each descriptionß
 ```
 * Forwarding Domain = The forwarding domain to be used
 tempdomain.com

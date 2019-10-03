@@ -6,7 +6,6 @@
 * A directory account with full administrative access over the appropriate OU structure of the AD server.
   (This tool modifies user objects)
 * OU for shadow contacts to be created in
-* Client to confirm modules can be imported and run on the server(s) SADA has access to
 ```
 
 ## Required User Inputs
